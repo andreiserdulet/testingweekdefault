@@ -1,14 +1,12 @@
 import person01 from '../assets/person01.jpg';
 import person02 from '../assets/person02.jpg';
 import person03 from '../assets/person03.jpg';
-//there's no person04 - Buzz Lightyear was dropped
 import person05 from '../assets/person05.jpg';
 import person06 from '../assets/person06.jpg';
 
 import person07 from '../assets/person07.jpg';
 import person08 from '../assets/person08.jpg'
 import person09 from '../assets/person09.jpg';
-import person10 from '../assets/person10.jpg';
 import person11 from '../assets/person11.jpg';
 
 export const swiperObj = [

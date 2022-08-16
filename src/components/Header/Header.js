@@ -14,7 +14,7 @@ export default function Header({ children }) {
             </div>
 
             <div className='header--title'>
-                <input defaultValue='Testing Week - Bug Hunt!'/>
+                <input defaultValue='Testing Week - Bug Hunt!' disabled={true}/>
             </div>
             <div className='header--timer'>
                 {children}

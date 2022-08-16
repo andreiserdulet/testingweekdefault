@@ -21,7 +21,6 @@ function ModalContent({showModal, setShowModal, showToast, setShowToast}) {
         lastName:'',
         email: '',
     })
-    const [focused, setFocused] = React.useState(false);
 
 
     return (
@@ -63,7 +62,6 @@ function ModalContent({showModal, setShowModal, showToast, setShowToast}) {
                            required={true}
                            placeholder='Write your email adress'
                     />
-                    {focused && <p>Error mail</p>}
 
                     <label htmlFor='message'>Message:</label>
                     <textarea id='message' placeholder='Only good things allowed!'/>

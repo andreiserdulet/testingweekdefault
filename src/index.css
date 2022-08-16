@@ -1,4 +1,8 @@
 /* Box sizing rules */
+:root{
+  scrollbar-width: none !important;
+
+}
 *,
 *::before,
 *::after {
@@ -36,10 +40,13 @@ body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none
 
 }
 body::-webkit-scrollbar{
+  width: 0px;
+  background: transparent;
+  scrollbar-width: none;
+  -ms-overflow-style: none;  /* IE and Edge */
   display: none;
   -webkit-appearance: none;
 }

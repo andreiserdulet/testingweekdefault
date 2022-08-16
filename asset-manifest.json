@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/testingweekdefault/static/css/main.93789c29.css",
-    "main.js": "/testingweekdefault/static/js/main.1818453c.js",
+    "main.css": "/testingweekdefault/static/css/main.5fd799db.css",
+    "main.js": "/testingweekdefault/static/js/main.e69d87e4.js",
     "static/js/787.00c8bf01.chunk.js": "/testingweekdefault/static/js/787.00c8bf01.chunk.js",
     "static/media/jest-logo.png": "/testingweekdefault/static/media/jest-logo.95bffbbd80a3ba10dfa4.png",
-    "static/media/selenium-logo.png": "/testingweekdefault/static/media/selenium-logo.6ab662e2b52fc09f4beb.png",
     "static/media/cucumber.png": "/testingweekdefault/static/media/cucumber.ef2a4f56ac41d83998f8.png",
     "static/media/endava-logo.png": "/testingweekdefault/static/media/endava-logo.67d455c587df9b5e2732.png",
     "static/media/postman-logo.png": "/testingweekdefault/static/media/postman-logo.8c0fbb1b2165be0b1dee.png",
@@ -16,12 +15,12 @@
     "static/media/person06.jpg": "/testingweekdefault/static/media/person06.829baed1002d384e8997.jpg",
     "static/media/person03.jpg": "/testingweekdefault/static/media/person03.0248ca6e8a9e5fa37720.jpg",
     "index.html": "/testingweekdefault/index.html",
-    "main.93789c29.css.map": "/testingweekdefault/static/css/main.93789c29.css.map",
-    "main.1818453c.js.map": "/testingweekdefault/static/js/main.1818453c.js.map",
+    "main.5fd799db.css.map": "/testingweekdefault/static/css/main.5fd799db.css.map",
+    "main.e69d87e4.js.map": "/testingweekdefault/static/js/main.e69d87e4.js.map",
     "787.00c8bf01.chunk.js.map": "/testingweekdefault/static/js/787.00c8bf01.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.93789c29.css",
-    "static/js/main.1818453c.js"
+    "static/css/main.5fd799db.css",
+    "static/js/main.e69d87e4.js"
   ]
 }

@@ -2,6 +2,15 @@
     padding: 20px;
     width: 70vw !important;
 }
+.swiper .swiper-pagination{
+    top: 93%;
+}
+.swiper button:first-of-type{
+    margin-right: auto;
+}
+.swiper button{
+    margin-left: auto;
+}
 
 @media screen and (min-width: 200px) {
     .swiper-container {

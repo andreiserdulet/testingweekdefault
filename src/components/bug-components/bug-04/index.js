@@ -1,9 +1,11 @@
 import * as React from 'react';
 import {Swiper, SwiperSlide} from 'swiper/react';
 import 'swiper/css';
+import "swiper/css/pagination";
 import './index.css';
 import SwiperCard from "../../Swiper-Card/SwiperCard";
 import { swiperObj } from "../../../data/data";
+import { Pagination } from "swiper";
 
 export function Bug04() {
 
@@ -21,7 +23,9 @@ export function Bug04() {
                 }}
                 spaceBetween={30}
                 slidesPerView={3}
-                onSwiper={(swiper) => console.log(swiper)}>
+                onSwiper={(swiper) => console.log(swiper)}
+                pagination={{clickable: true,}} modules={[Pagination]}
+            >
                 { swiperObj.map((item) => {
                     return (
 

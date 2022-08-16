@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.93789c29.css",
+    "main.js": "/react-gh-pages/static/js/main.caddac32.js",
+    "static/js/787.00c8bf01.chunk.js": "/react-gh-pages/static/js/787.00c8bf01.chunk.js",
+    "static/media/jest-logo.png": "/react-gh-pages/static/media/jest-logo.95bffbbd80a3ba10dfa4.png",
+    "static/media/selenium-logo.png": "/react-gh-pages/static/media/selenium-logo.6ab662e2b52fc09f4beb.png",
+    "static/media/cucumber.png": "/react-gh-pages/static/media/cucumber.ef2a4f56ac41d83998f8.png",
+    "static/media/endava-logo.png": "/react-gh-pages/static/media/endava-logo.67d455c587df9b5e2732.png",
+    "static/media/postman-logo.png": "/react-gh-pages/static/media/postman-logo.8c0fbb1b2165be0b1dee.png",
+    "static/media/jira.png": "/react-gh-pages/static/media/jira.c46ec06a7a51d2b2eb1c.png",
+    "static/media/person07.jpg": "/react-gh-pages/static/media/person07.d569ea02d0f287ca3b69.jpg",
+    "static/media/person02.jpg": "/react-gh-pages/static/media/person02.1eba8e3cf4f97bd4ba63.jpg",
+    "static/media/cypress.png": "/react-gh-pages/static/media/cypress.b5cb01ca2412d6a2ecd0.png",
+    "static/media/person05.jpg": "/react-gh-pages/static/media/person05.43c964fb0ddd29f6bbcc.jpg",
+    "static/media/person06.jpg": "/react-gh-pages/static/media/person06.829baed1002d384e8997.jpg",
+    "static/media/person03.jpg": "/react-gh-pages/static/media/person03.0248ca6e8a9e5fa37720.jpg",
+    "index.html": "/react-gh-pages/index.html",
+    "main.93789c29.css.map": "/react-gh-pages/static/css/main.93789c29.css.map",
+    "main.caddac32.js.map": "/react-gh-pages/static/js/main.caddac32.js.map",
+    "787.00c8bf01.chunk.js.map": "/react-gh-pages/static/js/787.00c8bf01.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93789c29.css",
+    "static/js/main.caddac32.js"
+  ]
+}

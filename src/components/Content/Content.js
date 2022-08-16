@@ -19,8 +19,7 @@ export default function Content({ children}) {
                         className={'one'}/>
                     <motion.img
                         src={karma}
-                        alt='selenium'
-                        drag
+                        alt='karma'
                         className={'two'}/>
                     <motion.img
                         src={cypress}

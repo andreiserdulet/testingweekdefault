@@ -1,8 +1,9 @@
 .swiper__container {
     padding: 16px;
-    min-height: 300px;
+    min-height: 250px;
     text-align: center;
     box-shadow: 0 4px 8px #eaeaea;
+    cursor: pointer;
 }
 
 .swiper__container .swiper__header {
@@ -34,3 +35,4 @@
 .swiper__container .swiper__body .swiper__body-title {
     font-style: italic;
 }
+

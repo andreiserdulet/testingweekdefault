@@ -27,10 +27,10 @@
     color: #fff;
     cursor: default;
 }
-.header--title input[value]::selection {
-    color: red;
-    background: gold;
-}
+/*.header--title input[value]::selection {*/
+/*    color: red;*/
+/*    background: gold;*/
+/*}*/
 .header--title input[value]:focus{
     outline: none;
 }
@@ -39,10 +39,10 @@
     color: red;
     background: gold;
 }
-.header--title p::selection{
-    color: red;
-    background: gold;
-}
+/*.header--title p::selection{*/
+/*    color: red;*/
+/*    background: gold;*/
+/*}*/
 
 .header--timer{
     margin-left: auto;

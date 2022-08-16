@@ -31,17 +31,17 @@ function ShowCounter({minutes, seconds}) {
 
     return (
         <div className='timer__container'>
-            <DateTimeDisplay value={minutes} type={'Minutes'} isDanger={minutes < 29}/>
-            <DateTimeDisplay value={seconds} type={'Seconds'} isDanger={minutes < 29}/>
+            <DateTimeDisplay value={minutes} type={'Minutes'}/>
+            <DateTimeDisplay value={seconds} type={'Seconds'}/>
         </div>
     )
 }
 
-function DateTimeDisplay({value,type, isDanger}) {
+function DateTimeDisplay({value,type}) {
 
     return (
-        <div className={isDanger ? 'timer__container-countdown danger' : 'timer__container-countdown'}>
-            <p>{isDanger ? 'NaN': value}</p>
+        <div className='timer__container-countdown'>
+            <p>{value}</p>
             <span>{type}</span>
         </div>
     );

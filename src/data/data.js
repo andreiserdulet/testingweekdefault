@@ -14,37 +14,37 @@ import person11 from '../assets/person11.jpg';
 export const swiperObj = [
     {
         id: 1,
-        name: 'Dora Popa',
+        name: 'Ana Nitescu',
         jobTitle: 'Discipline Lead',
-        description: 'I love testing',
-        img: person01
+        description: '',
+        img: person06
     },
     {
         id: 2,
         name: 'Dorin Ruscea',
         jobTitle: 'Test Management Community Lead',
-        description: 'I love testing more than the guy in the left',
+        description: '',
         img: person02
     },
     {
         id: 3,
-        name: 'Ana Nitescu',
+        name: 'Dora Popa',
         jobTitle: 'Discipline Lead',
-        description: 'Testing is awesome',
-        img: person06,
+        description: '',
+        img: person01,
     },
     {
         id: 4,
         name: 'Gabriel Dima ',
         jobTitle: 'Test Automation - Community Lead',
-        description: 'Testing is awesome',
+        description: '',
         img: person08,
     },
     {
         id: 5,
         name: 'Alexandra Foltica',
         jobTitle: 'Stand In - Test Management',
-        description: 'Testing is awesome',
+        description: '',
         img: person03,
     },
 
@@ -52,7 +52,7 @@ export const swiperObj = [
         id: 6,
         name: 'Andrei Zamfir',
         jobTitle: 'Test Management- Core Team',
-        description: 'Testing is awesome',
+        description: '',
         img: person05,
     },
     {
@@ -64,13 +64,6 @@ export const swiperObj = [
     },
     {
         id: 8,
-        name: 'Andrei Serdulet',
-        jobTitle: 'Developer-owner of Bug Hunting app',
-        description: 'Good luck finding all the ... bugs',
-        img: person10,
-    },
-    {
-        id: 9,
         name: 'Andreea Epure',
         jobTitle: 'Test Management – Core Team',
         description: '',
@@ -78,7 +71,7 @@ export const swiperObj = [
     },
 
     {
-        id: 10,
+        id: 9,
         name: 'Alexandru Tomescu',
         jobTitle: 'Test Management- Core Team',
         description: '',
@@ -96,7 +89,7 @@ export const listObj = [
     {
         id: 2,
         label: `Make sure you have the necessary  about the part of the application you are testing. If you are not sure, ask business analyst, project manager, mentor, co-worker... 
-        You <strike>MUST</strike> know how the application is suppose to be working,`
+        You MUST know how the application is suppose to be working,`
     },
     {
         id: 3,

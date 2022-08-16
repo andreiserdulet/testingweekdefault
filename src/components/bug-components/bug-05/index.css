@@ -19,14 +19,6 @@
     cursor: pointer;
 }
 
-.bug05__container span  svg path{
-    transition: 5s ease;
-}
-
-.bug05__container span  svg:hover path{
-    fill: crimson;
-}
-
 @keyframes tilt-n-move-shaking {
     0% { transform: translate(0, 0) rotate(0deg); }
     25% { transform: translate(5px, 5px) rotate(5deg); }

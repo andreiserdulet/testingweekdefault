@@ -32,7 +32,7 @@
     border: none;
     background: unset;
     font-size: 24px;
-    cursor: cell;
+    cursor: pointer;
 }
 
 .modal__container .modal__container-body .modal__container-head button svg path {
@@ -50,9 +50,12 @@
 .modal__container .modal__container-body .modal__container-form input,
 .modal__container .modal__container-body .modal__container-form label,
 .modal__container .modal__container-body .modal__container-form textarea {
-    padding: 0;
+    padding: 4px;
     width: 100%;
+    min-width: 100%;
+    max-width: 100%;
 }
+
 
 .modal__container .modal__container-body .modal__container-form button {
     background: #282c34;

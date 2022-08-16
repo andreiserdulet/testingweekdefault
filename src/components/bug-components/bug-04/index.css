@@ -3,23 +3,24 @@
     width: 70vw !important;
 }
 
-.swiper .swiper__card{
-
-}
-
 @media screen and (min-width: 200px) {
     .swiper-container {
         width: 200px;
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 1050px) {
+    .swiper{
+        width: 30vw!important;
+    }
     .swiper-container {
-        width: 768px;
+        width: 300px;
     }
 }
-@media screen and (min-width: 1050px) {
-    .swiper-container {
-        width: 1050px;
+
+@media screen and (max-width: 600px) {
+    .swiper{
+        width: 70vw!important;
     }
+
 }

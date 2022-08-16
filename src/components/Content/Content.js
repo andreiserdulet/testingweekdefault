@@ -5,7 +5,7 @@ import postmanLogo from '../../assets/postman-logo.png';
 import jestLogo from '../../assets/jest-logo.png';
 import jira from '../../assets/jira.png';
 import karma from '../../assets/karma.png';
-import selenium from '../../assets/selenium-logo.png';
+import selenium from '../../assets/selenium-logo.jpg';
 import { motion} from "framer-motion";
 import './index.css';
 

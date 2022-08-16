@@ -36,13 +36,11 @@ body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   -ms-overflow-style: none;  /* IE and Edge */
-  overflow: hidden
+  scrollbar-width: none
 
 }
 body::-webkit-scrollbar{
   display: none;
-  overflow-y: hidden;
-  overflow-x: hidden;
   -webkit-appearance: none;
 }
 

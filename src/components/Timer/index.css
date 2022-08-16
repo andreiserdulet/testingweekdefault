@@ -1,0 +1,77 @@
+.timer {
+    box-shadow: 0 1px 4px #666870;
+}
+.timer__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.timer__container-countdown {
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #282c34;
+}
+.timer__container-countdown p{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    color: white;
+    border-bottom: 1px solid #666870;
+}
+.timer__container-countdown span{
+    padding-top: 4px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: white;
+}
+.timer__container-countdown.danger p,
+.timer__container-countdown.danger span
+{
+    color:crimson;
+}
+
+.timeout__container{
+    margin-top: 50px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0%;
+    background: white;
+
+}
+.timeout__title{
+    box-shadow: 0 4px 8px crimson;
+    padding: 24px;
+}
+.time__title h1{
+    color: black;
+}
+@media (max-width: 600px) {
+    .timer{
+        position: absolute;
+        right: 0;
+        top: 100px;
+    }
+    .timer__container {
+        gap: 0;
+
+    }
+    .timer__container-countdown {
+        padding: 4px;
+    }
+    .timer__container-countdown p,
+    .timer__container-countdown span{
+        padding: 0;
+        font-size: 18px;
+        line-height: 140%;
+    }
+}

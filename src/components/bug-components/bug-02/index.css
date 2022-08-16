@@ -1,0 +1,21 @@
+.bug02__container{
+    text-align: center;
+    padding: 24px;
+}
+.bug02__container p{
+    text-align: start;
+}
+.bug02__container span[disabled] {
+    color: red;
+    cursor: no-drop;
+}
+.bug02__container span {
+    font-style: italic;
+    color: cornflowerblue;
+    cursor: pointer;
+}
+@media (max-width: 600px) {
+    .bug02__container {
+        padding: 54px 24px 24px;
+    }
+}

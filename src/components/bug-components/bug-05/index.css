@@ -1,0 +1,36 @@
+.bug05__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bug05__container h2 {
+    animation: tilt-n-move-shaking 0.82s infinite;
+}
+
+.bug05__container span svg {
+    width: 150px;
+    height: 150px;
+}
+
+.bug05__container span  svg{
+    animation: tilt-n-move-shaking 0.82s infinite;
+    cursor: pointer;
+}
+
+.bug05__container span  svg path{
+    transition: 5s ease;
+}
+
+.bug05__container span  svg:hover path{
+    fill: crimson;
+}
+
+@keyframes tilt-n-move-shaking {
+    0% { transform: translate(0, 0) rotate(0deg); }
+    25% { transform: translate(5px, 5px) rotate(5deg); }
+    50% { transform: translate(0, 0) rotate(0deg); }
+    75% { transform: translate(-5px, 5px) rotate(-5deg); }
+    100% { transform: translate(0, 0) rotate(0deg); }
+}

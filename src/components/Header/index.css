@@ -1,0 +1,49 @@
+.header{
+    width: 100%;
+    max-width: 100%;
+    height: 100px;
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    position: fixed;
+    background: #282c34;
+    z-index: 31;
+}
+.header--img-logo{
+    display: block;
+    min-width: 100px;
+    width: 150px;
+    max-width: 100%;
+}
+.header--title input[value]{
+    border: none;
+    outline: none;
+    background: #282c34;
+    margin-top: 18px;
+    font-weight: 700;
+    font-size: clamp(18px, 2vw, 32px);
+    color: #fff;
+    cursor: default;
+}
+.header--title input[value]::selection {
+    color: red;
+    background: gold;
+}
+.header--title input[value]:focus{
+    outline: none;
+}
+.header--title p{
+    width: 120px;
+    color: red;
+    background: gold;
+}
+.header--title p::selection{
+    color: red;
+    background: gold;
+}
+
+.header--timer{
+    margin-left: auto;
+}

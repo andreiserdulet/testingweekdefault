@@ -1,0 +1,22 @@
+.toast__container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.toast__container .toast__text {
+    font-size: 18px;
+    color: lightgray;
+}
+.toast__container .toast__img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.toast__container .toast__img02 {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+

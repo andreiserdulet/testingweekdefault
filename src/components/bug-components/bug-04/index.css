@@ -1,0 +1,25 @@
+.swiper{
+    padding: 20px;
+    width: 70vw !important;
+}
+
+.swiper .swiper__card{
+
+}
+
+@media screen and (min-width: 200px) {
+    .swiper-container {
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .swiper-container {
+        width: 768px;
+    }
+}
+@media screen and (min-width: 1050px) {
+    .swiper-container {
+        width: 1050px;
+    }
+}
